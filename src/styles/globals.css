@@ -1,0 +1,58 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  * {
+    @apply border border-gray-200;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  :where(
+      :not(:has([class*=" text-"])),
+      :not(:has([class^="text-"]))
+    ) {
+    h1 {
+      font-size: var(--text-2xl);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h2 {
+      font-size: var(--text-xl);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h3 {
+      font-size: var(--text-lg);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h4,
+    label,
+    button,
+    input {
+      font-size: var(--text-base);
+      line-height: 1.5;
+    }
+
+    h4,
+    label,
+    button {
+      font-weight: var(--font-weight-medium);
+    }
+
+    input {
+      font-weight: var(--font-weight-normal);
+    }
+  }
+}
