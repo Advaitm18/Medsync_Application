@@ -21,7 +21,6 @@ export default function App() {
               About MedSync
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              just impressive well built para with high level english
 MedSync stands as India's vanguard in digital health innovation, seamlessly orchestrating the Ayushman Bharat Digital Mission's transformative vision. Through its pioneering ABHA ecosystem, we empower 1.4 billion citizens with a singular, lifelong digital health identity unifying prescriptions, diagnostics, and clinical narratives across a vast continuum of providers in an impregnable fortress of consent-driven interoperability. With unwavering ABDM compliance and HIPAA-grade encryption, MedSync transcends mere connectivity, architecting a resilient health backbone that catalyzes universal access, telemedicine revolutions, and data sovereignty for patients, practitioners, and institutions alike—heralding an era where healthcare transcends geography, bureaucracy, and legacy silos.</p>
           </div>
         </section>
