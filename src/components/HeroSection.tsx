@@ -1,5 +1,4 @@
 import { ArrowRight } from "lucide-react";
-import homeImg from "../assets/home.jpg";
 
 export function HeroSection() {
   return (
